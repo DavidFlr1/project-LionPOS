@@ -1,0 +1,189 @@
+/* Navbar container */
+.dashboard-main-container {
+    z-index: 1;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    background: none;
+}
+
+.navbar-container {
+    z-index: 1;
+    width: 70px;
+    height: 100vh;
+    background: #5DB9FA;
+    transition: 0.3s;
+    overflow-x: hidden;
+}
+
+.dashboard-sub-container {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    left: 110px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 20px;
+}
+
+.menubar {
+    position: sticky;
+}
+
+/* Profile */
+
+.navbar-profile {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5px;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #5DB9FA !important;
+    transition: 0.5s;
+}
+
+.navbar-profile span {
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.navbar-profile:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar-profile:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.navbar-link {
+    width: 100%;
+}
+/* Items */
+
+.navbar-item {
+    width: 100%;
+    height: 50px;
+    background: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    border: 1px solid #5DB9FA !important;
+    transition: 0.5s;
+}
+
+.navbar-item-inactive {
+    text-align: center !important;
+    padding: 0 !important;
+}
+
+.navbar-item-active {
+    text-align: left !important;
+    padding: 0 10px !important;
+}
+
+.navbar-item span {
+    padding-left: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar-item:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 10px !important;
+}
+
+.navbar-item:hover span {
+    color: rgb(78, 78, 78) !important;
+}
+
+.navbar-item:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Subitems */
+.navbar-subitem {
+    height: 35px;
+    background: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    border: 1px solid #5DB9FA !important;
+    transition: 0.5s;
+}
+
+.navbar-subitem-inactive {
+    text-align: center !important;
+    padding: 0 !important;
+    width: 38px !important;
+}
+
+.navbar-subitem-active {
+    text-align: left !important;
+    padding: 0 52px !important;
+    width: 100% !important;
+}
+
+.navbar-subitem span {
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.subitem-span {
+    font-size: 20px;
+}
+
+.navbar-subitem:hover span {
+    color: rgb(78, 78, 78) !important;
+}
+
+.navbar-subitem:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Footer */
+.navbar-footer {
+    position: absolute;
+    padding: 0 12px;
+    left: 2px;
+    top: calc(100vh - 18vh);
+}
+
+.navbar-footer span {
+    font-size: 16px !important;
+}
+/* Special cases and miscellaneous */
+
+.collapse-style {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icons-style {
+    color: #fff;
+    font-size: 30px !important;
+    padding: 0;
+    margin: 0;
+}
+
+.icons-size {
+    font-size: 24px !important;
+}
+
+.menubar-icons-style {
+    position: absolute;
+    width: 30px !important;
+    color: rgb(78, 78, 78);
+    background: #fff !important;
+    padding: 1px;
+    margin: 10px;
+    font-size: 30px !important;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+}
