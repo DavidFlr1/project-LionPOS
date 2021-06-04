@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/project-LionPOS/static/css/main.40925ee1.chunk.css",
+    "main.js": "/project-LionPOS/static/js/main.baa9c73d.chunk.js",
+    "main.js.map": "/project-LionPOS/static/js/main.baa9c73d.chunk.js.map",
+    "runtime-main.js": "/project-LionPOS/static/js/runtime-main.eebf3b4f.js",
+    "runtime-main.js.map": "/project-LionPOS/static/js/runtime-main.eebf3b4f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/project-LionPOS/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ec1d25eb.chunk.js": "/project-LionPOS/static/js/2.ec1d25eb.chunk.js",
+    "static/js/2.ec1d25eb.chunk.js.map": "/project-LionPOS/static/js/2.ec1d25eb.chunk.js.map",
+    "index.html": "/project-LionPOS/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/project-LionPOS/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.40925ee1.chunk.css.map": "/project-LionPOS/static/css/main.40925ee1.chunk.css.map",
+    "static/js/2.ec1d25eb.chunk.js.LICENSE.txt": "/project-LionPOS/static/js/2.ec1d25eb.chunk.js.LICENSE.txt",
+    "static/media/LionPOS_Logo_Gray.e175a40f.jpg": "/project-LionPOS/static/media/LionPOS_Logo_Gray.e175a40f.jpg",
+    "static/media/userPicture.0874b515.jpg": "/project-LionPOS/static/media/userPicture.0874b515.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eebf3b4f.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ec1d25eb.chunk.js",
+    "static/css/main.40925ee1.chunk.css",
+    "static/js/main.baa9c73d.chunk.js"
+  ]
+}
